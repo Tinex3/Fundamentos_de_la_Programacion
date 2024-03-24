@@ -1,0 +1,12 @@
+Proceso Mayor_de_edad
+	Definir Edad Como Entero;
+	Escribir "Escriba la edad de pedro";
+	Leer Edad;
+	
+	Si Edad > 17 Entonces
+		Escribir "Eres mayor de edad";
+	SiNo
+		Escribir "Eres Menor de edad";
+	FinSi
+	
+FinProceso

@@ -1,0 +1,7 @@
+Proceso suma_De_Numeros_Enteros
+	Definir Num1, Num2,Suma Como Entero;
+	Escribir "Ingrese los valores para los dos numeros siguientes";
+	Leer Num1,Num2;
+	Suma = Num1 + Num2;
+	Escribir "La suma de ", Num1, " y ", Num2, " Es ", Suma;
+FinProceso

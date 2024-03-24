@@ -17,6 +17,6 @@ Proceso Tabla_De_Multiplicar
 			FinMientras
 			Index = 0;
 		FinSi
-	Hasta Que Index == 1000;
+	Hasta Que Index == 10;
 	
 FinProceso

@@ -1,0 +1,40 @@
+Proceso Numero_Mayor
+    //Ingresar tres números enteros e indicar cuál de ellos es el mayor.
+    Definir Num1,Num2,Num3 Como Entero;
+	Definir Mayor, Mediano, Menor Como Entero;
+	escribir "Ingrese los 3 valores";
+	leer Num1,Num2,Num3;
+	
+	Si Num1 > Num2 Entonces
+		Si Num1 > Num3 Entonces
+			Mayor = Num1;
+			Si Num2 > Num3 Entonces
+				Mediano = Num2;
+			FinSi
+		FinSi
+	Sino 
+		Si Num2 > Num3 Entonces
+			Mayor = Num2;
+			Si Num1 > Num3 Entonces
+				Mediano = Num1;
+				Menor = Num3;
+				
+			Sino
+				Mediano = Num3;
+				Menor = Num1;
+			FinSi
+		FinSi
+		
+		
+	FinSi
+	Escribir "El valor Mayor es", Mayor;
+	Escribir "El valor del medio Es", Mediano;
+	Escribir "El valor menor es", Menor;
+	
+    
+	
+	
+	
+	
+	
+FinProceso

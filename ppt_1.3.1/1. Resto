@@ -1,0 +1,13 @@
+Proceso Residuo
+	Definir Numero_Ingresado, Resto Como Real;
+	Escribir "Ingrese un numero: ";
+	leer Numero_Ingresado;
+	
+	Resto = Numero_Ingresado % 2;
+	si Resto <> 0 Entonces
+		Escribir "El resto es de: ", Resto, " Entonces es impar";
+	SiNo
+		Escribir "El Numero es par";
+	FinSi
+	
+FinProceso
